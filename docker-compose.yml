@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  laravel1:
+    build:
+      context: .
+      dockerfile: qg-frontend/Dockerfile
+    ports:
+      - "8001:80"
+
+  laravel2:
+    build:
+      context: .
+      dockerfile: qg-usuario/Dockerfile
+    ports:
+      - "8002:80"
+
+  golang1:
+    build:
+      context: .
+      dockerfile: api-gateway/Dockerfile
+    ports:
+    - "8003:80"
+
+  golang2:
+    build:
+      context: .
+      dockerfile: qg-manager/Dockerfile
+    ports:
+    - "8004:80"

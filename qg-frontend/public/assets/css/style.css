@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.bg {
+    display: table;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    color: white;
+    background: url('../img/background-login.jpg') no-repeat bottom center scroll;
+    background-position: 30% 45%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.card-login {
+    border: 10px solid #ffffff96;
+    border-radius: 400px;
+    -webkit-border-radius: 400px;
+    -moz-border-radius: 400px;
+    height: 450px;
+    margin-top: 17vh;
+}
+
+.card-user {
+    border: 10px solid #246598;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    height: 450px;
+    margin-top: 40px;
+}
+
+.flex-a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-b {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-e {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-s {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.text-blue {
+    color: #246598;
+}
+
+.text-gray {
+    color: #91908f;
+}
+
+.text-green {
+    color: #488f3f;
+}
+
+.bg-green {
+    background-color: #488f3f !important;
+}
+
+.btn-login {
+    border: 2px solid white;
+}
+
+.btn-login:hover {
+    background-color: #246598;
+    border: 2px solid white;
+}
+
+.btn-back {
+    border: 2px solid white;
+}
+
+.btn-back:hover {
+    background-color: lightgray;
+    border: 2px solid white;
+}
+
+.bg-blue {
+    background-color: #9ee2d7 !important;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.fs-8 {
+    font-size: 8px;
+}
+
+.navbar-img {
+    width: 25px;
+    height: 25px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.text-rookie {
+    color: #de47bc !important;
+}
+
+.bg-rookie {
+    background-color: #de47bc !important;
+}
+
+.char {
+    width: 100px;
+    height: 100px;
+}
+
+.pb {
+    height: 8px !important;
+    width: 80% !important;
+}
+
+.trophy-size {
+    width: 34px;
+    height: 34px;
+}
+
+.badge-size {
+    width: 44px;
+    height: 44px;
+}
+
+.bg-lg-green {
+    background-color: #9ee2d791;
+}
+
+.title-page {
+    color: #246598;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.card-default {
+    min-height: 420px;
+    height: auto;
+}
+
+.svg-width {
+    width: 70px;
+    margin-right: 10px;
+}
+
+.btn-green {
+    background-color: #488f3f;
+    border-color: #488f3f;
+}
+
+.btn-blue {
+    background-color: #246598;
+    border-color: #246598;
+}
+
+.btn-pink {
+    background-color: #de47bc;
+    border-color: #de47bc;
+}
+
+.title-card {
+    color: #246598;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.badge-blue {
+    background-color: #246598;
+    border-color: #246598;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.badge-transparent {
+    background-color: transparent;
+    border-color: #246598d4;
+    color: #246598;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.text-svg {
+    width: 200px;
+    font-size: 24px;
+}
+
+.badge-button {
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 9px;
+    padding-top: 17px;
+    width: 75px;
+    cursor: pointer;
+}
+
+.img-btn {
+    background-color: transparent;
+}
+
+.next-week-btn {
+    color: #246598;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.play-btn {
+    color: #246598;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 64px;
+    height: 64px;
+}
+
+button.btn.img-btn.next-week-btn:hover {
+    background-color: #246598;
+}
+
+.btn-close {
+    float: right;
+    color: red;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.pos-close {
+    position: relative;
+    bottom: 10px;
+}
+
+.list-item {
+    text-transform: uppercase;
+    font-size: 85%;
+    margin-left: 10px;
+}
+
+.card-manager {
+    min-height: 260px;
+    height: auto;
+    position: relative;
+    bottom: 30px;
+}
+
+.icon-manager {
+    width: 30px;
+    height: 30px;
+}
+
+.manager-title {
+    font-weight: bold;
+    position: relative;
+    top: 3px;
+}
+
+.minimize-icon {
+    height: 20px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.minimize-text {
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 3px;
+    width: 100%;
+}
+
+.minimize-icon-done {
+    height: 18px;
+    width: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.minimize-icon-clock {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+
+.title-manager {
+    position: relative;
+    bottom: 20px;
+}
+
+.text-red {
+    color: red !important;
+}
+
+.bg-red {
+    background-color: red !important;
+}
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.card-oc {
+    background-color: #c5e29ec2;
+    height: 100px;
+    text-align: start;
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.loading-1 {
+    transform: rotateZ(30deg);
+}
+
+.loading-2 {
+    transform: rotateZ(60deg);
+}
+
+.loading-3 {
+    transform: rotateZ(90deg);
+}
+
+.loading-4 {
+    transform: rotateZ(1200deg);
+}
+
+.loading-5 {
+    transform: rotateZ(150deg);
+}
+
+.loading-6 {
+    transform: rotateZ(180deg);
+}
+
+.loading-7 {
+    transform: rotateZ(210deg);
+}
+
+.loading-8 {
+    transform: rotateZ(240deg);
+}
+
+.loading-9 {
+    transform: rotateZ(270deg);
+}
+
+.loading-10 {
+    transform: rotateZ(300deg);
+}
+
+.loading-11 {
+    transform: rotateZ(330deg);
+}
+
+.loading-12 {
+    transform: rotateZ(360deg);
+}
+
+.text-project {
+    text-align: justify;
+    font-size: 8.5px !important;
+}
+
+.bg-navy-blue {
+    background-color: #246598 !important;
+}
+
+.text-navy-blue {
+    color: #246598;
+}
+
+.test-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.card-char {
+    border: 1px solid #9ee1d7d6;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    /* background-color: #9ee1d7d6; */
+    height: 21em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.char-register {
+    width: 150px;
+    height: 150px;
+}
+
+.no-link {
+    color: #2c2c2c;
+}
+
+.no-link:hover {
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.scrolling {
+    overflow-y: scroll;
+    overflow-x: hidden !important;
+}
+
+.level-img {
+    width: 150px;
+    height: auto;
+}
+
+.end-game {
+    font-size: 20px !important;
+}
+
+.flip {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -moz-transform: scaleX(-1);
+}
